@@ -25,7 +25,7 @@ jobs:
         with:
           file: ./Dockerfile
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/belajar-ci:latest
+          tags: ${{ secrets.DOCKER_USENAME }}/belajar-ci:latest
 
   deployment:
     needs: build
